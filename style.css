@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+body {
+    background-color:#23252C;
+    font-family: Inter, sans-serif;
+}
+
+
+.infoava {
+    display:block;
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0px 0px;
+    background-image: url("./images/ava.jpg");
+    background-position: 75% 0%; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.content {
+    display:block;
+    background-color:#1A1B21;
+    width: 317px;
+    min-height:300px;
+}
+
+.info {
+    background-color:#1A1B21;
+    width: 317px;
+    color: white;
+    text-align:center;
+    padding: 20px 35px 20px 35px;
+}
+
+.info > b {
+    font-size:24px;
+}
+
+.dev {
+    color:#F3BF99;
+    margin:6px;
+}
+
+.website {
+    color:#F5F5F5;
+}
+
+button {
+    padding: 9px 95px;
+    margin-top:16px;
+    background-color:#D1D5DB;
+    border:0;
+    border-radius:6px;
+    color:#374151;
+    min-width:247px;
+    font-size:14px;
+    cursor: pointer;
+}
+
+.about {
+    padding: 0px 35px;
+}
+
+h3 {
+    color:#F5F5F5;
+    font-weight: bold;
+    font-size:16px;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color:#DCDCDC;
+    width:247px;
+
+}
+
+.footer {
+    width:317px;
+    background-color:#161619;
+    border-radius:0px 0px 10px 10px;
+    padding: 19px 47px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
